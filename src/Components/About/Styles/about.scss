@@ -1,0 +1,83 @@
+@import "../../assets/assets.scss";
+.card {
+  height: 300px !important;
+  //   border: 1px solid $secondery-color !important;
+  border: none !important;
+  box-shadow: 0 0 20px rgba(#b4d0e7, 0.3);
+  cursor: pointer;
+  border-radius: 2% !important;
+  &:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.cardRow {
+  transform: translateX(18%);
+  width: 75%;
+}
+.head-text span {
+  color: $base-color;
+}
+.head-text {
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.card-text {
+  font-size: 15px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .head-text {
+    font-size: 1.5rem;
+  }
+  .cardRow {
+    width: 100% !important;
+    transform: translateX(6%);
+  }
+  .card {
+    height: 350px !important;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 568px) {
+  .head-text {
+    font-size: 1.5rem;
+  }
+  .cardRow {
+    width: 100% !important;
+    transform: translateX(6%);
+  }
+  .card {
+    height: 350px !important;
+  }
+}
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .head-text {
+    font-size: 2rem;
+  }
+  .cardRow {
+    width: 100% !important;
+    transform: translateX(6%);
+  }
+  .card {
+    height: 350px !important;
+  }
+  .card-title {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .head-text {
+    font-size: 2rem;
+  }
+  .cardRow {
+    width: 100% !important;
+    transform: translateX(6%);
+  }
+  .card {
+    height: 350px !important;
+  }
+  .card-title {
+    font-size: 15px;
+  }
+}

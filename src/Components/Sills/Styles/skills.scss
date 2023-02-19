@@ -1,0 +1,56 @@
+@import "../../assets/assets.scss";
+.year p {
+  font-size: 17px;
+  font-weight: bold;
+  color: $base-color;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.skillDeteals {
+  cursor: pointer;
+}
+.skillDeteals :first-child {
+  font-size: 19px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.skillDeteals h5 {
+  font-size: 17px;
+  color: $base-color;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.skillDeteals p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(91, 88, 88, 0.8);
+  padding: 1px;
+  text-transform: capitalize;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .app__skills-list {
+    transform: translate(39px, -31px);
+  }
+  .app__skils-experience {
+    transform: translatex(39px);
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 568px) {
+  .app__skills-list {
+    transform: translate(39px, -31px);
+  }
+  .app__skils-experience {
+    transform: translatex(39px);
+  }
+}
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .skillDeteals h4 {
+    font-size: 15px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .skillDeteals h4 {
+    font-size: 15px !important;
+  }
+}
