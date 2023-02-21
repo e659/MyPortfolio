@@ -53,7 +53,7 @@
 }
 @media screen and (min-width: 568px) and (max-width: 768px) {
   .head-text {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .cardRow {
     width: 100% !important;
@@ -68,16 +68,22 @@
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .head-text {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .cardRow {
     width: 100% !important;
     transform: translateX(6%);
   }
   .card {
-    height: 350px !important;
+    height: 250px !important;
   }
   .card-title {
-    font-size: 15px;
+    font-size: 12px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .card img {
+    height: 70% !important;
   }
 }

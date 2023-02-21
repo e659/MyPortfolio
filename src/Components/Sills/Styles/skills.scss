@@ -34,6 +34,10 @@
   .app__skils-experience {
     transform: translatex(39px);
   }
+  .skillDeteals h4 {
+    font-size: 15px !important;
+    line-height: 1.2rem;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 568px) {
@@ -45,12 +49,24 @@
   }
 }
 @media screen and (min-width: 568px) and (max-width: 768px) {
+  .app__skills-list {
+    transform: translate(50px, -31px);
+  }
+  .app__skils-experience {
+    transform: translatex(50px);
+  }
   .skillDeteals h4 {
     font-size: 15px !important;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  .app__skills-list {
+    transform: translate(90px, -31px);
+  }
+  .app__skils-experience {
+    transform: translatex(90px);
+  }
   .skillDeteals h4 {
-    font-size: 15px !important;
+    font-size: 13px !important;
   }
 }

@@ -23,12 +23,12 @@
   }
 }
 @media screen and (min-width: 568px) and (max-width: 768px) {
-  //   .socialMedia {
-  //     display: none !important;
-  //   }
+  .socialMedia {
+    top: 20%;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  //   .socialMedia {
-  //     display: none !important;
-  //   }
+  .socialMedia {
+    top: 37%;
+  }
 }

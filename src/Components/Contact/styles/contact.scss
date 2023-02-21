@@ -69,13 +69,21 @@
   .email ul {
     padding-left: 1rem !important;
   }
+  .email {
+    img {
+      width: 30px !important;
+    }
+    a {
+      font-size: 0.7rem;
+    }
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 568px) {
-  // .cardContactRow {
-  //   width: 100%;
-  //   transform: translateX(10%) !important;
-  // }
+  .cardContactRow {
+    width: 100%;
+    transform: translateX(12%) !important;
+  }
   .CoffeCup {
     width: 20% !important;
   }
@@ -90,38 +98,41 @@
 @media screen and (min-width: 568px) and (max-width: 768px) {
   .cardContactRow {
     width: 100%;
-    transform: translateX(6%) !important;
+    transform: translateX(13%) !important;
   }
   .CoffeCup {
     width: 20% !important;
   }
   .info {
-    width: 68%;
+    width: 83%;
     margin-bottom: 2%;
   }
   .regerrorMsg {
-    width: 79% !important;
+    width: 81% !important;
   }
   .email a {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .cardContactRow {
     width: 100%;
-    transform: translateX(6%) !important;
+    transform: translateX(13%) !important;
   }
   .CoffeCup {
     width: 20% !important;
   }
   .info {
-    width: 68%;
+    width: 65%;
     margin-bottom: 2%;
   }
   .regerrorMsg {
-    width: 79% !important;
+    width: 81% !important;
   }
   .email a {
     font-size: 0.5rem;
+  }
+  .email img {
+    width: 30px !important;
   }
 }

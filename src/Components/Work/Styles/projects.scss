@@ -1,7 +1,7 @@
 @import "../../assets/assets.scss";
 .cardRowProj {
   transform: translateX(18%);
-  width: 75%;
+  width: 75% !important;
 }
 .app__works-filter {
   transform: translateX(45%);
@@ -120,20 +120,20 @@
     margin: 0;
     width: 100%;
     flex-wrap: wrap;
-    transform: translateX(3px);
+    transform: translateX(1px);
   }
   .btnRow {
     margin-top: 0 !important;
     transform: translateX(53%) !important;
   }
   .btnRow .moreBtn {
-    font-size: 14px !important;
+    font-size: 15px !important;
     padding: 12px !important;
     width: 100% !important;
   }
   .cardRowProj {
-    width: 100%;
-    transform: translateX(6%);
+    width: 100% !important;
+    transform: translateX(7%);
   }
   .app__works-filter-item {
     margin-top: 3% !important;
@@ -156,6 +156,13 @@
     padding: 12px !important;
     width: 100% !important;
   }
+  .cardRowProj {
+    width: 100% !important;
+    transform: translateX(7%);
+  }
+  .app__works-filter-item {
+    margin-top: 3% !important;
+  }
 }
 @media screen and (min-width: 568px) and (max-width: 768px) {
   .btnRow .moreBtn {
@@ -164,22 +171,57 @@
     width: 45% !important;
   }
   .projCard-title {
-    font-size: 12px;
+    font-size: 23px;
   }
   .ProjText {
-    font-size: 10px;
+    font-size: 16px;
+  }
+  .cardRowProj {
+    width: 90% !important;
+    transform: translateX(12%);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .btnRow .moreBtn {
-    font-size: 16px !important;
-    padding: 12px !important;
-    width: 45% !important;
+    font-size: 14px !important;
+    padding: 10px !important;
+    width: 40% !important;
+  }
+  .cardRowProj {
+    width: 90% !important;
+    transform: translateX(10%);
   }
   .projCard-title {
-    font-size: 12px;
+    font-size: 15px;
+    padding-top: 0 !important;
   }
   .ProjText {
     font-size: 10px;
+    padding: 5px;
+  }
+  .app__works-layer {
+    height: 70% !important;
+    svg {
+      width: 50% !important;
+      height: 50% !important;
+      top: 10px !important;
+      left: 10px !important;
+    }
+    div {
+      width: 40px !important;
+      height: 40px !important;
+    }
+  }
+  .app__works-portfolio {
+    height: 260px;
+    .app__works-image {
+      height: 300px !important;
+      img {
+        height: 100% !important;
+      }
+    }
+  }
+  .proj-card {
+    height: 260px !important;
   }
 }
