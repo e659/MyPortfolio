@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.9faefd2f.css",
-    "main.js": "/myPortfolio/static/js/main.e829c08c.js",
+    "main.css": "/myPortfolio/static/css/main.13bcf767.css",
+    "main.js": "/myPortfolio/static/js/main.264b26ad.js",
     "static/media/bakery.jpg": "/myPortfolio/static/media/bakery.114975a3cdc368b70c63.jpg",
     "static/media/kasper.jpg": "/myPortfolio/static/media/kasper.0942b56fab7424798299.jpg",
     "static/media/bookMark.jpg": "/myPortfolio/static/media/bookMark.a793156bbe9468a4613c.jpg",
@@ -17,7 +17,7 @@
     "static/media/frontend.jpg": "/myPortfolio/static/media/frontend.e59e517aa13f69789230.jpg",
     "static/media/boot1.png": "/myPortfolio/static/media/boot1.f132cb791703420e69ca.png",
     "static/media/boot.png": "/myPortfolio/static/media/boot.25a009618979ee9da53f.png",
-    "static/media/eman shalapy Cv.pdf": "/myPortfolio/static/media/eman shalapy Cv.84d02cb3ab8bcd2ef5c6.pdf",
+    "static/media/eman shalapy.pdf": "/myPortfolio/static/media/eman shalapy.e455cdb60c254a74c9f4.pdf",
     "static/media/ui.jpg": "/myPortfolio/static/media/ui.12547e4f691a562bd9c0.jpg",
     "static/media/cup.png": "/myPortfolio/static/media/cup.2831157f6e7249864a71.png",
     "static/media/sass.png": "/myPortfolio/static/media/sass.497a3d5b34c8b7b9c90a.png",
@@ -34,11 +34,11 @@
     "static/media/css1.png": "/myPortfolio/static/media/css1.5721a3928fe43de6baf8.png",
     "index.html": "/myPortfolio/index.html",
     "static/media/circt.svg": "/myPortfolio/static/media/circt.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.9faefd2f.css.map": "/myPortfolio/static/css/main.9faefd2f.css.map",
-    "main.e829c08c.js.map": "/myPortfolio/static/js/main.e829c08c.js.map"
+    "main.13bcf767.css.map": "/myPortfolio/static/css/main.13bcf767.css.map",
+    "main.264b26ad.js.map": "/myPortfolio/static/js/main.264b26ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.9faefd2f.css",
-    "static/js/main.e829c08c.js"
+    "static/css/main.13bcf767.css",
+    "static/js/main.264b26ad.js"
   ]
 }
