@@ -58,7 +58,7 @@ export default function Projects() {
           </div>
 
           <motion.div
-            className="row py-5  d-flex  cardRowProj g-5"
+            className="row pb-5 pt-3  d-flex  cardRowProj g-5"
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5, ease: easeInOut }}
           >
@@ -130,14 +130,14 @@ export default function Projects() {
               {showMore ? (
                 <button
                   onClick={() => setShowMore(!showMore)}
-                  className="btn btn-primary w-25 moreBtn"
+                  className="btn btn-primary  moreBtn py-2"
                 >
                   Load less
                 </button>
               ) : (
                 <button
                   onClick={() => setShowMore(!showMore)}
-                  className="btn btn-primary w-25 moreBtn"
+                  className="btn btn-primary  moreBtn py-2"
                 >
                   Load more
                 </button>

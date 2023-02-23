@@ -5,6 +5,8 @@ import phone from "../../images/phone.png";
 import "./styles/contact.scss";
 import emailjs from "emailjs-com";
 import Joi from "joi";
+import { BsWhatsapp } from "react-icons/bs";
+import { HiOutlineMail } from "react-icons/hi";
 import { easeInOut, motion } from "framer-motion";
 export default function Contact() {
   const [user, setUser] = useState({
@@ -15,7 +17,7 @@ export default function Contact() {
   });
   const [validationErr, setValidationErr] = useState([]);
   const [errorMsg, setErrorMsg] = useState("");
-  const [emailSent, setEmailSent] = useState(false);
+
   // getFormValues
   function getFormData(e) {
     const myUser = { ...user };
@@ -100,12 +102,17 @@ export default function Contact() {
                   <ul class="fa-ul">
                     <li className="">
                       <span class="fa-li">
-                        <img
+                        <HiOutlineMail
+                          size={25}
+                          className="me-2"
+                          style={{ color: "#61082b" }}
+                        />
+                        {/* <img
                           src={email}
                           alt="email"
                           className="img-fluid "
                           style={{ width: "40px", height: "40px" }}
-                        />
+                        /> */}
                       </span>
                       <a
                         href="mailto:emanshalapy255@gmail.com"
@@ -129,12 +136,17 @@ export default function Contact() {
                   <ul class="fa-ul">
                     <li>
                       <span class="fa-li">
-                        <img
+                        <BsWhatsapp
+                          size={25}
+                          className="me-2"
+                          style={{ color: "#61082b" }}
+                        />
+                        {/* <img
                           src={phone}
                           alt="email"
                           className="img-fluid "
                           style={{ width: "40px", height: "40px" }}
-                        />
+                        /> */}
                       </span>
                       <a
                         href="tel:+201003900914"

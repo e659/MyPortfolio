@@ -107,12 +107,10 @@
   background-color: $base-color !important;
   border: none !important;
   color: $secondery-color !important;
+  transform: translateX(30%) !important;
 }
 .btnRow .moreBtn:hover {
-  box-shadow: 5px 3px 18px 0px rgba(97, 8, 43, 0.2) !important;
-  // background-color: white !important;
-  // color: $base-color !important;
-  // border: 1px solid $base-color !important;
+  box-shadow: 5px 3px 18px 0px rgba(97, 8, 43, 0.5) !important;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -152,9 +150,7 @@
     transform: translateX(53%) !important;
   }
   .btnRow .moreBtn {
-    font-size: 16px !important;
-    padding: 12px !important;
-    width: 100% !important;
+    transform: translateX(60%) !important;
   }
   .cardRowProj {
     width: 100% !important;
@@ -166,9 +162,7 @@
 }
 @media screen and (min-width: 568px) and (max-width: 768px) {
   .btnRow .moreBtn {
-    font-size: 16px !important;
-    padding: 12px !important;
-    width: 45% !important;
+    transform: translateX(6%) !important;
   }
   .projCard-title {
     font-size: 23px;
@@ -183,9 +177,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .btnRow .moreBtn {
-    font-size: 14px !important;
-    padding: 10px !important;
-    width: 40% !important;
+    transform: translateX(6%) !important;
   }
   .cardRowProj {
     width: 90% !important;

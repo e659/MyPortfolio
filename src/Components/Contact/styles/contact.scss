@@ -34,11 +34,11 @@
 }
 .submitBtn {
   background-color: $base-color !important;
-  color: $secondery-color !important;
   border: none !important;
+  color: $secondery-color !important;
 }
 .submitBtn:hover {
-  box-shadow: 5px 3px 18px 0px rgba(97, 8, 43, 0.2) !important;
+  box-shadow: 5px 3px 18px 0px rgba(97, 8, 43, 0.5) !important;
   // background-color: white !important;
   // color: $base-color !important;
   // border: 1px solid $base-color !important;
@@ -130,7 +130,7 @@
     width: 81% !important;
   }
   .email a {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .email img {
     width: 30px !important;

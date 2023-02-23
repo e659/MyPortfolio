@@ -21,7 +21,7 @@ export default function Skills() {
             <motion.div className="app__skills-list">
               <div className="row">
                 {imagesArr.map((image, index) => (
-                  <div className="col-3" key={index}>
+                  <div className="col-4" key={index}>
                     <motion.div
                       style={{ cursor: "pointer" }}
                       className="skillItem py-2 d-flex justify-content-center rounded"
