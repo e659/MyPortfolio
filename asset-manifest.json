@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.13bcf767.css",
-    "main.js": "/myPortfolio/static/js/main.264b26ad.js",
+    "main.js": "/myPortfolio/static/js/main.f676a092.js",
     "static/media/bakery.jpg": "/myPortfolio/static/media/bakery.114975a3cdc368b70c63.jpg",
     "static/media/kasper.jpg": "/myPortfolio/static/media/kasper.0942b56fab7424798299.jpg",
     "static/media/bookMark.jpg": "/myPortfolio/static/media/bookMark.a793156bbe9468a4613c.jpg",
@@ -13,7 +13,9 @@
     "static/media/devfolio.jpg": "/myPortfolio/static/media/devfolio.85359f90bb5fd05f6e8a.jpg",
     "static/media/registeration.jpg": "/myPortfolio/static/media/registeration.21a5eb522a6b874ab774.jpg",
     "static/media/Avater.png.jpg": "/myPortfolio/static/media/Avater.png.a6c84f9d43df903a28d8.jpg",
+    "static/media/productCrud.jpg": "/myPortfolio/static/media/productCrud.0218f66af45dffc1976e.jpg",
     "static/media/redux.png": "/myPortfolio/static/media/redux.588e48f72ad02650385b.png",
+    "static/media/PasswordGenerator.jpg": "/myPortfolio/static/media/PasswordGenerator.eeb0ea6d9df43a016a98.jpg",
     "static/media/frontend.jpg": "/myPortfolio/static/media/frontend.e59e517aa13f69789230.jpg",
     "static/media/boot1.png": "/myPortfolio/static/media/boot1.f132cb791703420e69ca.png",
     "static/media/boot.png": "/myPortfolio/static/media/boot.25a009618979ee9da53f.png",
@@ -35,10 +37,10 @@
     "index.html": "/myPortfolio/index.html",
     "static/media/circt.svg": "/myPortfolio/static/media/circt.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.13bcf767.css.map": "/myPortfolio/static/css/main.13bcf767.css.map",
-    "main.264b26ad.js.map": "/myPortfolio/static/js/main.264b26ad.js.map"
+    "main.f676a092.js.map": "/myPortfolio/static/js/main.f676a092.js.map"
   },
   "entrypoints": [
     "static/css/main.13bcf767.css",
-    "static/js/main.264b26ad.js"
+    "static/js/main.f676a092.js"
   ]
 }
