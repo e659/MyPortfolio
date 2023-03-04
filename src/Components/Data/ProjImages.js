@@ -8,6 +8,8 @@ import bakery from "../../images/bakery.png";
 import kasper from "../../images/kasper.png";
 import Lean from "../../images/leon.png";
 import onlineMok from "../../images/mokk1.jpg";
+import password from "../../images/PasswordGenerator.jpg";
+import Crud from "../../images/productCrud.jpg";
 export default {
   onlineMok,
   Weather,
@@ -19,4 +21,6 @@ export default {
   bakery,
   kasper,
   Lean,
+  password,
+  Crud,
 };

@@ -8,6 +8,8 @@ import bakery from "../../images/bakery.jpg";
 import kasper from "../../images/kasper.jpg";
 import Lean from "../../images/lean.jpg";
 import onlineMok from "../../images/mokk1.jpg";
+import password from "../../images/PasswordGenerator.jpg";
+import ProductCrud from "../../images/productCrud.jpg";
 const projects = [
   {
     id: 1,
@@ -41,6 +43,26 @@ const projects = [
   },
   {
     id: 4,
+    tage: "javaScript",
+    title: "PassWord Generator",
+    subtitle: "javaScript",
+    description: "Password generator using JavaScript",
+    image: password,
+    Livelink: "https://e659.github.io/passwordGeneratorApp/",
+    GLink: "https://github.com/e659/passwordGeneratorApp",
+  },
+  {
+    id: 5,
+    tage: "javaScript",
+    title: "ProductCrud",
+    subtitle: "JavaScript",
+    description: "crude operation with JavaScript",
+    image: ProductCrud,
+    Livelink: "https://e659.github.io/products_CRUD/",
+    GLink: "https://github.com/e659/products_CRUD",
+  },
+  {
+    id: 6,
     tage: "jquery",
     title: "DevFolio-Portfolio",
     subtitle: "JQuery",
@@ -50,7 +72,7 @@ const projects = [
     GLink: "https://github.com/e659/DevFolio-Portfolio",
   },
   {
-    id: 5,
+    id: 7,
     tage: "jquery",
     title: "Event-App",
     subtitle: "JQuery",
@@ -60,7 +82,7 @@ const projects = [
     GLink: "https://github.com/e659/Event-App-Jquery",
   },
   {
-    id: 6,
+    id: 8,
     tage: "javaScript",
     title: "BookMark",
     subtitle: "JavaScript",
@@ -70,7 +92,7 @@ const projects = [
     GLink: "https://github.com/e659/bookmark",
   },
   {
-    id: 7,
+    id: 9,
     tage: "javaScript",
     title: "ToDoList",
     subtitle: "JavaScript",
@@ -79,8 +101,9 @@ const projects = [
     Livelink: "https://e659.github.io/ToDoList/",
     GLink: "https://github.com/e659/ToDoList",
   },
+ 
   {
-    id: 8,
+    id: 10,
     tage: "Html&css",
     title: "Bakery",
     subtitle: "Html&Css",
@@ -90,7 +113,7 @@ const projects = [
     GLink: "https://github.com/e659/bakery",
   },
   {
-    id: 9,
+    id: 11,
     tage: "Html&css",
     title: "Kasper",
     subtitle: "Html&Css",
@@ -100,7 +123,7 @@ const projects = [
     GLink: "https://github.com/e659/Product-App-crud-",
   },
   {
-    id: 10,
+    id: 12,
     tage: "Html&css",
     title: "Leon",
     subtitle: "Html&Css",
